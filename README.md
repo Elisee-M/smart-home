@@ -1,73 +1,56 @@
-# Welcome to your Lovable project
+# 🌍 Smart Parking and Environment Monitoring Project
 
-## Project info
+Welcome! This project was created to make daily life easier by using simple devices that check the environment, water safety, parking availability, and light control. All the information is collected and shared in one place so it can be viewed anywhere.
 
-**URL**: https://lovable.dev/projects/3a0d3780-6faa-4fbe-879c-bd1b29deefca
+---
 
-## How can I edit this code?
+## 👥 Team Members
+- Elisee MUGIRANEZA  
+- Leogad HAKIZIMANA  
+- Kevin  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📌 What the Project Does
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3a0d3780-6faa-4fbe-879c-bd1b29deefca) and start prompting.
+- 🅿 **Parking Check**  
+  Shows whether each of two parking slots is free or occupied.
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🌡 **Temperature and Humidity**  
+  Measures the weather around us, including how hot and how humid it is.
 
-**Use your preferred IDE**
+- 💧 **Water Safety**  
+  Detects if there is water leakage or flooding and gives an alert.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- 💡 **Light Control**  
+  Lets us turn lights on or off remotely.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 📊 **Dashboard**  
+  All information is collected in one place that is easy to read and manage.  
+  There are also history records so we can see what happened earlier.
 
-Follow these steps:
+- 👥 **User Accounts**  
+  Admins can add or remove users, and users can log in to view the system.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🌟 Benefits
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Get live information about parking, weather, and water safety.  
+- Control lights from a distance.  
+- Receive alerts about water problems.  
+- Easy to expand later if we want more features.  
+- Saves time by showing parking availability instantly.  
+- Protects homes and offices from water damage.  
+- Simple to use, with a friendly dashboard for both admins and regular users.  
+- Affordable and practical for everyday life.  
+- Helpful for learning and teaching how connected systems work.  
+- Can grow in the future with new features like mobile apps or smarter controls.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🙏 Closing
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project shows how small devices can be combined to make life safer, easier, and more convenient.  
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3a0d3780-6faa-4fbe-879c-bd1b29deefca) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+✨ Thank you for your interest in our work!  
