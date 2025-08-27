@@ -1,0 +1,11 @@
+Copyright (c) 2025 Elisee MUGIRANEZA
+
+All rights reserved.
+
+This code is provided for viewing purposes only.
+
+You may not copy, modify, merge, publish, distribute, sublicense, 
+or use this code, in whole or in part, for any purpose without the 
+explicit written permission of the author.
+
+Unauthorized use of this code is strictly prohibited.
