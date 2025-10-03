@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SmartNest IoT Design System
+All colors MUST be HSL for perfect theming.
+Vibrant, gradient-rich design for modern IoT dashboard.
+*/
+
+@layer base {
+  :root {
+    /* Base Colors - Light Mode */
+    --background: 240 10% 98%;
+    --foreground: 240 10% 8%;
+
+    /* Card System */
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 8%;
+
+    /* Interactive Elements */
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 8%;
+
+    /* Primary Brand - Deep IoT Blue */
+    --primary: 220 100% 25%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 220 100% 50%;
+
+    /* Secondary - Smart Green */
+    --secondary: 160 80% 35%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Accent - Energy Orange */
+    --accent: 25 95% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Temperature - Warm Red */
+    --temperature: 10 90% 55%;
+    --temperature-foreground: 0 0% 100%;
+
+    /* Humidity - Cool Blue */
+    --humidity: 200 90% 55%;
+    --humidity-foreground: 0 0% 100%;
+
+    /* Light Control */
+    --light-on: 120 80% 45%;
+    --light-off: 0 80% 55%;
+
+    /* Neutral Tones */
+    --muted: 240 5% 95%;
+    --muted-foreground: 240 5% 45%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Border & Input */
+    --border: 240 10% 90%;
+    --input: 240 10% 95%;
+    --ring: 220 100% 50%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220 100% 25%), hsl(220 100% 50%));
+    --gradient-secondary: linear-gradient(135deg, hsl(160 80% 35%), hsl(160 80% 55%));
+    --gradient-temperature: linear-gradient(135deg, hsl(10 90% 55%), hsl(25 95% 55%));
+    --gradient-humidity: linear-gradient(135deg, hsl(200 90% 55%), hsl(220 90% 65%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 100% 25%), hsl(160 80% 35%), hsl(25 95% 55%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(240 10% 98%));
+
+    /* Shadows */
+    --shadow-glow: 0 0 30px hsl(220 100% 50% / 0.3);
+    --shadow-card: 0 10px 30px -5px hsl(240 10% 20% / 0.1);
+    --shadow-button: 0 5px 15px -3px hsl(220 100% 25% / 0.3);
+
+    /* Border Radius */
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Base Colors - Dark Mode */
+    --background: 240 15% 8%;
+    --foreground: 240 5% 95%;
+
+    /* Card System */
+    --card: 240 10% 12%;
+    --card-foreground: 240 5% 95%;
+
+    /* Interactive Elements */
+    --popover: 240 10% 12%;
+    --popover-foreground: 240 5% 95%;
+
+    /* Primary Brand - Bright IoT Blue */
+    --primary: 220 100% 60%;
+    --primary-foreground: 240 15% 8%;
+    --primary-glow: 220 100% 70%;
+
+    /* Secondary - Bright Green */
+    --secondary: 160 80% 50%;
+    --secondary-foreground: 240 15% 8%;
+
+    /* Accent - Energy Orange */
+    --accent: 25 95% 65%;
+    --accent-foreground: 240 15% 8%;
+
+    /* Temperature - Warm Red */
+    --temperature: 10 90% 65%;
+    --temperature-foreground: 240 15% 8%;
+
+    /* Humidity - Cool Blue */
+    --humidity: 200 90% 65%;
+    --humidity-foreground: 240 15% 8%;
+
+    /* Light Control */
+    --light-on: 120 80% 55%;
+    --light-off: 0 80% 65%;
+
+    /* Neutral Tones */
+    --muted: 240 10% 15%;
+    --muted-foreground: 240 5% 65%;
+
+    /* Destructive */
+    --destructive: 0 84% 70%;
+    --destructive-foreground: 240 15% 8%;
+
+    /* Border & Input */
+    --border: 240 10% 20%;
+    --input: 240 10% 15%;
+    --ring: 220 100% 60%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220 100% 40%), hsl(220 100% 70%));
+    --gradient-secondary: linear-gradient(135deg, hsl(160 80% 40%), hsl(160 80% 60%));
+    --gradient-temperature: linear-gradient(135deg, hsl(10 90% 55%), hsl(25 95% 65%));
+    --gradient-humidity: linear-gradient(135deg, hsl(200 90% 55%), hsl(220 90% 75%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 100% 40%), hsl(160 80% 50%), hsl(25 95% 65%));
+    --gradient-card: linear-gradient(145deg, hsl(240 10% 12%), hsl(240 10% 15%));
+
+    /* Shadows */
+    --shadow-glow: 0 0 40px hsl(220 100% 60% / 0.4);
+    --shadow-card: 0 10px 30px -5px hsl(240 10% 5% / 0.3);
+    --shadow-button: 0 5px 15px -3px hsl(220 100% 40% / 0.4);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-poppins;
+  }
+}
+
+@layer components {
+  .story-link {
+    @apply relative inline-block after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
+  }
+  
+  .hover-scale {
+    @apply transition-transform duration-200 hover:scale-105;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-rainbow bg-clip-text text-transparent animate-rainbow;
+    background-size: 400% 400%;
+  }
+  
+  .neon-glow {
+    @apply shadow-neon animate-glow-pulse;
+  }
+  
+  .float-animation {
+    @apply animate-float;
+  }
+}
