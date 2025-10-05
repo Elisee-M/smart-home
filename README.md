@@ -1,73 +1,113 @@
-# Welcome to your Lovable project
+# 🌿 SmartNest: Intelligent IoT System for Smart Homes
 
-## Project info
+### Empowering Sustainable Living Through Smart Technology  
+**NASA Space Apps Challenge 2025**  
+**Team: Code To Circuit**
 
-**URL**: https://lovable.dev/projects/3a0d3780-6faa-4fbe-879c-bd1b29deefca
+---
 
-## How can I edit this code?
+## 👥 Team Members
+- Hakizimana Leogad  
+- Giraso Mperekeza Esperance  
+- Mugiraneza Elisee  
+- Niyomahoro Moise  
+- Kubwimana Jean Aime  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Project Overview
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3a0d3780-6faa-4fbe-879c-bd1b29deefca) and start prompting.
+**SmartNest** is an **IoT-based home automation system** designed to promote sustainable living by intelligently managing home and environmental resources.  
+It integrates multiple sensors and actuators to **monitor**, **analyze**, and **automate** essential household systems — from lighting and irrigation to parking and weather monitoring.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 💡 The Challenge
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Modern homes often waste **energy** and **water** due to inefficient manual control.  
+NASA’s global sustainability challenge inspired us to design a system that helps reduce resource waste through **smart monitoring** and **automation**.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🔧 Our Solution
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+SmartNest uses **IoT sensors** connected to a **NodeMCU (ESP8266)** to collect environmental data and automate actions such as:
+- Watering plants when soil is dry 🌱  
+- Turning lights on/off via a web dashboard 💡  
+- Monitoring parking slots using ultrasonic sensors 🚗  
+- Tracking temperature and humidity in real time 🌡️  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Users can control everything from a **web interface**, with live data display and alerts.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## ⚙️ System Architecture
 
-**Edit a file directly in GitHub**
+### Hardware Components
+- **ESP8266 NodeMCU** – main controller  
+- **DHT11 Sensor** – monitors temperature and humidity  
+- **Soil Moisture Sensor** – measures soil water levels  
+- **Ultrasonic Sensors (2x)** – detect parking occupancy  
+- **Relay Module** – controls lamp and water pump  
+- **Water Pump** – irrigates plants automatically  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Software Components
+- **Firebase Realtime Database** – stores and syncs live sensor data  
+- **HTML/CSS/JavaScript Web Dashboard** – user interface  
+- **IoT Logic Code (Arduino)** – manages automation and connectivity  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌐 Key Features
 
-## What technologies are used for this project?
+- ✅ Real-time environmental monitoring  
+- ✅ Smart irrigation and water management  
+- ✅ Intelligent parking assistance  
+- ✅ Lamp control via web interface  
+- ✅ Alert notifications (e.g., "Soil needs watering")  
+- ✅ Graph-based data visualization for temperature and humidity history  
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌎 Impact & Benefits
 
-## How can I deploy this project?
+- 🌱 **Promotes sustainable living** by reducing waste  
+- ⚡ **Optimizes energy and water consumption**  
+- 🤖 **Reduces manual intervention** with automation  
+- 🏠 **Cost-effective and scalable** for both urban and rural homes  
+- 🌇 **Supports smart city initiatives**
 
-Simply open [Lovable](https://lovable.dev/projects/3a0d3780-6faa-4fbe-879c-bd1b29deefca) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🔬 Demo & Next Steps
 
-Yes, you can!
+### 🎥 Demo
+A working prototype with real-time monitoring and control via web interface.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### 🔮 Future Enhancements
+- Integrate **AI for predictive control**  
+- Add **solar power monitoring**  
+- Expand into **community-level smart systems**
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## 🧩 Tech Stack
+
+| Component | Technology Used |
+|------------|-----------------|
+| Microcontroller | NodeMCU (ESP8266) |
+| Sensors | DHT11, Ultrasonic, Soil Moisture |
+| Cloud | Firebase Realtime Database |
+| Frontend | HTML, CSS, JavaScript |
+| Automation | Arduino (C/C++) |
+
+---
+
+## 🏁 Conclusion
+
+**SmartNest** embodies the future of sustainable living — combining IoT intelligence, automation, and eco-conscious innovation to create homes that think and care. 🌿💡🌍
+
+---
+
+> “Sustainability starts at home — SmartNest makes it smarter.”  
+> — *Team Code To Circuit*
