@@ -53,7 +53,7 @@ Users can control everything from a **web interface**, with live data display an
 
 ### Software Components
 - **Firebase Realtime Database** – stores and syncs live sensor data  
-- **HTML/CSS/JavaScript Web Dashboard** – user interface  
+- **Typescript Web Dashboard** – user interface  
 - **IoT Logic Code (Arduino)** – manages automation and connectivity  
 
 ---
